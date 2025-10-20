@@ -11,5 +11,5 @@ def read_root():
 # You can add more routes
 @app.get("/predict")
 def predict():
-    # Later, your ML model code will go here
-    return {"prediction": 42}
+    # We changed this line!
+    return {"prediction": 12345, "status": "it works!"}
